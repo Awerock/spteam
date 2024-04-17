@@ -1,0 +1,23 @@
+.logotype {
+    padding-top: 30px;
+    min-height: 815px;
+    &__logo {
+        display: block;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+    &__descr {
+        padding-top: 30px;
+        display: block;
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: justify;
+        & p {
+            margin-top: 5px;
+        }
+    }
+}
