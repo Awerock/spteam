@@ -1,25 +1,26 @@
 .logotype {
     padding-top: 30px;
-    min-height: 815px;
+    &__block {
+        min-height: 815px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     &__logo {
-        display: block;
-        margin: 0 auto;
-        max-width: 800px;
+        max-width: 600px;
         width: 100%;
         height: auto;
     }
     &__descr {
-        padding-top: 30px;
-        display: block;
-        max-width: 800px;
-        margin: 0 auto;
-        font-size: 16px;
-        color: #ffffff;
+        padding-top: 10px;
+        max-width: 591px;
+        font-size: 12px;
+        color: #d4d4d4b6;
         font-weight: 300;
-        text-transform: uppercase;
         text-align: justify;
         & p {
-            margin-top: 5px;
+            margin-top: 2px;
         }
     }
 }
